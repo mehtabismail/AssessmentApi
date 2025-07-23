@@ -1,0 +1,38 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "This is a learning project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehtabismail/AssessmentApi.git"
+  },
+  "keywords": [
+    "assessment",
+    "javasccript",
+    "nodejs"
+  ],
+  "author": "MEHTAB ISMAIL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehtabismail/AssessmentApi/issues"
+  },
+  "homepage": "https://github.com/mehtabismail/AssessmentApi#readme",
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.840.0",
+    "axios": "^1.10.0",
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "node-cache": "^5.1.2",
+    "validator": "^13.15.0"
+  }
+}
